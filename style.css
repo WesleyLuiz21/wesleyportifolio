@@ -71,10 +71,7 @@ h1,h2,h3,p,a {
     font-family: 'roboto';
     font-size: 1.3rem;
     color: red;
-}
-.linksanim {
-    transition: 200ms;
-    top: 20px;
+    transition: 500ms;
 }
 .boxs {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.753);
@@ -149,7 +146,7 @@ nav  a:hover, #footernav a:hover {
 #intro-wesley, #me-photo, #introduction {
     animation: transitionIn 1s;
 }
-.animationjs {
+.animationjs {                                                                          /* ------------------ anim class------------------ */ 
     opacity: 100%;
     animation: transitionIn 1s  both;
 }
@@ -205,12 +202,14 @@ main {
     background-color: rgb(255, 0, 34);
     color: white;
     border: 2px solid rgb(255, 0, 34);
+    transition: 500ms;
 }
 #btnintro2 {
     color: white;
     padding-left: 20px;
     border: 2px solid white;
     margin-left: 20px;
+    transition: 500ms;
    
 }
 #right-intro {
@@ -421,6 +420,19 @@ footer {
     background-color: #11141a;
     padding: 10px;
     border-radius: 5px;
+}
+/* ------------------hover effects ------------------ */
+.button-intro:hover {
+    background: white;
+    color: rgb(255, 0, 34);
+    border: 2px solid white;
+}
+#btnintro2:hover {
+    padding-left: 20px;
+    border: 2px solid rgb(255, 0, 34);
+}
+.linkred:hover {
+    color: white;
 }
 /* ------------------ keyframes ------------------ */
 

@@ -55,8 +55,3 @@ const scrollDown = () => {
   }
 }
  
-
-const btnLink = document.getElementsByClassName('linkred');
-btnLink.onmouseover = function() {
-  document.getElementsByClassName('bx-down-arrow-alt').style.top = '20px';
-};
