@@ -38,7 +38,6 @@ h2 {
     Font-Family: 'Oswald', Sans-Serif;
 }
 h3 {
-    font-size: 1.3rem;
     font-weight: 400;
 }
 h4 {
@@ -69,7 +68,6 @@ h1,h2,h3,p,a {
 .linkred {
     text-decoration: none;
     font-family: 'roboto';
-    font-size: 1.3rem;
     color: red;
     transition: 500ms;
 }
@@ -335,6 +333,7 @@ main {
 }
 #projectscontainer {
     margin: 0 auto;
+    opacity: 0;
 }
 
 #prohead {
@@ -369,7 +368,7 @@ main {
 }
 .prodivbox {
     text-align: left;
-    padding: 20px;
+    padding: 0px 20px 20px;
 }
 
 /* ------------------ foooter  ------------------ */
@@ -486,6 +485,9 @@ footer {
     }
     #introduction {
         top: 270px;
+    }
+    #abtleft {
+        grid-column: 1/2;
     }
 }
 @media (max-width: 1080px) {                                        /* ------------------ media 1080px ------------------ */   

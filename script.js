@@ -2,6 +2,7 @@ window.onscroll = function() {                                                  
   scrollFunction()
   scrollNav()
   scrollDown()
+  scrollDownsec()
 };
          
 function scrollFunction() {
@@ -49,9 +50,10 @@ function scrollNav() {                                                       // 
 const scrollDown = () => {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById('abtcontainer').classList.add('animationjs');
-  } else {
-    (document.body.scrollTop > 500 || document.documentElement.scrollTop > 600) 
-      document.getElementById('projectscontainer').classList.add('animationjs');
   }
 }
+const scrollDownsec = () => {
+     if (document.body.scrollTop > 1100 || document.documentElement.scrollTop > 1100) 
+      document.getElementById('projectscontainer').classList.add('animationjs');
+  }
  
