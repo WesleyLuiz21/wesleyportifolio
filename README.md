@@ -22,7 +22,7 @@ My goal is to make an accurate website portifolio about me while I practice my s
 ## What I learned from this project:
 
 * Learned to use CSS properly/in a more efficient way and save a lot of code.
-* Learn the importance of wrinting clean code.
-* Learn the importance of designing/have a clear ideia of what I plan to do/create.
+* Learned the importance of wrinting clean code.
+* Learned the importance of designing/have a clear ideia of what I plan to do/create.
 * Understood how the DOM works.
 * Improved my JS skills.
