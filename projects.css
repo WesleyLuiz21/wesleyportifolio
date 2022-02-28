@@ -273,6 +273,7 @@ footer {
         grid-template-columns: 100%;
         grid-column-gap: 3%;
         grid-row-gap: 40px;
+        width: 90%;
     }
 }
 @media (max-width: 730px) {                                             /* ------------------ media 730px ------------------ */   
