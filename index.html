@@ -31,11 +31,29 @@
                             <a href="https://github.com/WesleyLuiz21" target="_blank" class="nav-links">github</a>
                         </li>
                         <li>
-                            <a href="#" class="nav-links">contact</a>
+                            <a href="#" class="nav-links" id="ctclink" onclick="linkContact()">contact</a>
                         </li>
                     </ul>
                 </nav>
             </header>
+            <section id="contactme" class="boxs animationjs">
+                <div class="flex" id="contactdiv">
+                    <h2>Contact me</h2>
+                    <button id="xbtn"><i class='bx bx-x-circle' ></i></button>
+                </div>
+                <form>
+                <label for="name">name</label><br>
+                <input type="text" id="name" name="name"  placeholder="insert your name" required><br>
+                <label for="email">email</label><br>
+                <input type="email" id="email" name="email" placeholder="insert your email" required><br>
+                <label for="subject">subject</label><br>
+                <input type="text" id="subject" name="subject" placeholder="write your subject" required><br>
+                <label for="Menssage">menssage</label><br>
+                <input type="textarea" id="subject" class="textarea" name="subject"  required><br>
+                <br>
+                <input type="submit" id="submit">
+                </form>
+            </section>
             <section id="intro-section">
                 <div id="intro-wesley" class="grid wid80">
                     <div id="left-intro" class="relative">
@@ -44,8 +62,8 @@
                         <div id="red-border"></div>
                         <h2>Front-End Developer & Website Designer</h2>
                         <div id="intro-buttons" class="relative">
-                            <a class ='relative button-intro' href="#">See Projects<i class='bx bx-right-arrow-alt relative'></i></a>
-                            <a id="btnintro2" class ='relative'  href="#">Contact me<i class='bx bx-right-arrow-alt relative'></i></a>
+                            <a class ='relative button-intro' href="./projects.html">See Projects<i class='bx bx-right-arrow-alt relative'></i></a>
+                            <a id="btnintro2" class ='relative' onclick="linkContact()">Contact me<i class='bx bx-right-arrow-alt relative' ></i></a>
                         </div>
                     </div>
                     <img src="./assets/wesley2.png" alt="picture-of-me" id="me-photo" class="relative">
@@ -214,10 +232,10 @@
                             <a href="./projects.html" class="nav-links">projects</a>
                         </li>
                         <li>
-                            <a href="https://github.com/WesleyLuiz21" target="_blank" class="nav-links">github</a>
+                            <a href="https://github.com/WesleyLuiz21" target="_blank" class="nav-links" >github</a>
                         </li>
                         <li>
-                            <a href="#" class="nav-links">contact</a>
+                            <a href="#" class="nav-links" id="ctclink2" onclick="linkContact()">contact</a>
                         </li>
                     </ul>
                 </div>

@@ -57,3 +57,28 @@ const scrollDownsec = () => {
       document.getElementById('projectscontainer').classList.add('animationjs');
   }
  
+
+// form function
+
+// const contactLink = document.getElementById('ctclink');
+//contactLink.onclick = function() {
+//document.getElementById('contactme').style.display = 'block'; 
+//}
+
+ 
+function linkContact() {
+  let x = document.getElementById('contactme');
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+
+
+const xBtn = document.getElementById('xbtn');
+xBtn.onclick = function() {
+  document.getElementById('contactme').style.display = 'none';
+}
