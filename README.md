@@ -10,7 +10,7 @@ My goal is to make an accurate website portifolio about me while I practice my s
 * CSS
 * JAVACRIPT 
 
-## Technniques used and what Improved:
+## Technniques used and what I Improved:
 
 * Flexbox.
 * CSS Grid
