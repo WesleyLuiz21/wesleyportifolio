@@ -66,19 +66,7 @@ const scrollDownsec = () => {
 //}
 
  
-function linkContact() {
-  let x = document.getElementById('contactme');
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
 
 
 
 
-const xBtn = document.getElementById('xbtn');
-xBtn.onclick = function() {
-  document.getElementById('contactme').style.display = 'none';
-}
