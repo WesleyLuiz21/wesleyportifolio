@@ -8,7 +8,7 @@ My goal is to make an accurate website portifolio about me while I practice my s
 
 * HTML
 * CSS
-* PLAIN JAVACRIPT 
+* JAVACRIPT 
 
 ## Technniques used and what Improved:
 
