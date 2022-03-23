@@ -24,7 +24,6 @@ a {
     font-family: 'raleway';
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 200;
 }
 h1 {
     font-size: 3rem;
@@ -367,9 +366,9 @@ main {
     height: 30px;
 }
 .probar {
-    background-color: red;
+    background-color: #4c67bf;
     border-radius: 5px;
-    height: 5px;
+    height: 9px;
     margin: 0px;
 }
 #bar1 {
@@ -440,7 +439,7 @@ main {
     width: 100%;
 }
 .prodivs {
-    background-color: #182130;
+    background-color: #4c67bf;
     margin: 0 auto;
 }
 .prodivbox {
@@ -458,7 +457,7 @@ main {
     margin-top: 100px;
 }
 #footernav li, a {
-    color:rgb(228, 228, 228);
+    color:white;
     margin: 0px;
 }
 #footernav a {
@@ -570,8 +569,7 @@ footer {
         display: none;
     }
     #intro-buttons > a {
-        font-size: 0.7rem;
-        padding: 8px 10px;
+        padding: 13px 12px;
     }
     #intro-wesley {
         grid-template-columns: 2fr 2fr 2fr;
@@ -592,9 +590,7 @@ footer {
     #introduction {
         top: 270px;
     }
-    #abtleft {
-        grid-column: 1/2;
-    }
+   
 }
 @media (max-width: 1080px) {                                        /* ------------------ media 1080px ------------------ */   
     #introduction {
@@ -605,6 +601,9 @@ footer {
     }
     #left-intro {
         top: 200px;
+    }
+    #abtleft {
+        grid-column: 1/3;
     }
     #intro-wesley {
         grid-template-columns: 2fr 2fr;
@@ -660,7 +659,7 @@ footer {
     #me-photo {
         right: 100px;
         min-width: 100px;
-        max-width: 350px;
+        max-width: 387px;
     }
     #right-nav {
         display: none;
@@ -745,16 +744,20 @@ footer {
     }
     #left-intro {
         z-index: 1;
-        width: 250px;
-        top: 450px;
+        width: 305px;
+        top: 492px;
         margin: 0 auto;
     }
     #left-intro > h2 {
-        margin: 5px 0px;
+        margin: 13px 0px;
     }
     .ftmore > a {
         display: none;
     }
+    #bar5 {
+        width: 77%;
+    }
+
 }
 @media (min-width: 1980px) {                                      /* ------------------ media 1980px/ 2k/4k resolutions ------------------ */   
     #intro-section {

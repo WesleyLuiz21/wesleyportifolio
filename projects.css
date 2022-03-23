@@ -24,7 +24,6 @@ a {
     font-family: 'raleway';
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 200;
 }
 h1 {
     font-size: 3rem;
@@ -147,81 +146,6 @@ nav  a:hover, #footernav a:hover {
 }
 
  /* ------------------ Section intro ------------------ */                           /* ------------------  Section/1 ------------------ */       
-#contactme {
-    background-color: #0f1520;
-    color: rgb(231, 231, 231);
-    width: 50%;
-    font-size: 13px;
-    z-index: 1001;
-    position: fixed;
-    margin: 0 auto;
-    top: 30%;
-    right: 0;
-    left: 0;
-    display: none;
-}
-
-#contactme h2 {
-    padding: 0px 30px;
-}
-#contactdiv {
-    justify-content: space-between;
-}
-#contactdiv > button {
-    width: 60px;
-    border: none;
-    background-color: transparent;
-}
-.bx-x-circle {
-    transform: scale(2);
-    color: red;
-    cursor: pointer;
-}
-#contactme > form {
-    padding: 30px;
-    position: relative;
-    margin-bottom: 2rem;
-}
-label {
-    margin-top: 10px;
-    font-family: 'raleway';
-    position: absolute;
-    left: 2.5rem;
-    padding: 1px 5px 10px 5px;
-    background: #0f1520;
-}
-::placeholder {
-    color: #64646b;
-}
-input {
-
-    width: 100%;
-    height: 30px;
-    border: 2px solid red;
-    background: none;
-    color: white;
-    outline: none;
-    padding: 1.5rem;
-    z-index: 1;
-}
-input:active {
-    background-color: none;
-}
-.textarea {
-    height: 11rem;
-}
-#submit {
-    width: 100px;
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    height: auto;
-    padding: 15px 25px;
-}
-#ctclink2, #ctclink {
-    cursor: pointer;
-}
 
 
 main {
@@ -236,7 +160,6 @@ main {
 .mainsec {
     padding-top: 200px;
     margin: 0 auto;
-    text-align: center;
 }
 .mainsec h1 {
     text-transform: uppercase;
@@ -249,7 +172,7 @@ main {
     padding: 50px 0px;
 }
 .probox {
-    background-color: #182130;
+    background-color: #4c67bf;
 }
 .protextbox {
     padding: 30px;
