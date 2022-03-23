@@ -1,3 +1,6 @@
+
+
+
 window.onscroll = function() {                                                                                  // makes the function work
   scrollFunction()
   scrollNav()

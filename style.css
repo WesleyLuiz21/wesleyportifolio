@@ -59,6 +59,7 @@ h1,h2,h3,p,a {
 .flex {
     display: flex;
 }
+
 .relative {
     position: relative;
 }
@@ -440,7 +441,7 @@ main {
 }
 .prodivs {
     background-color: #182130;
-    border-top: 1px solid red;
+    margin: 0 auto;
 }
 .prodivbox {
     text-align: left;
@@ -466,8 +467,7 @@ main {
     transition: 500ms;
 }
 footer {
-    background-color: #182130;
-    border-top: 1px solid red;
+    background-color: red;
 }
 #footercontainer {
     text-align: center;
@@ -483,23 +483,32 @@ footer {
 #footercontainer > ul > li {
     padding: 15px;
 }
-#footercontainer p {
-    margin-top: 30px;
-}
 #footercontainer a {
     margin: 0px;
-    text-transform: uppercase;
+    font-weight: 400;
+}
+.ftmore {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.ftmore > p {
+    margin: 0px;
+}
+.ftmore > ul {
+    gap: 10px;
+}
 .bxl-instagram-alt,.bxl-behance,.bxl-github {
     color: white;
     background-color: #11141a;
     padding: 6px;
-    transform: scale(1.5);
+    font-size: 1.8rem;
+    border-radius: 50%;
     transition: 400ms;
 }
 .bxl-instagram-alt:hover,.bxl-behance:hover,.bxl-github:hover{
-    background-color: red;
+    background-color: #182130;
 }
               
 
@@ -744,6 +753,9 @@ footer {
     }
     #left-intro > h2 {
         margin: 5px 0px;
+    }
+    .ftmore > a {
+        display: none;
     }
 }
 @media (min-width: 1980px) {                                      /* ------------------ media 1980px/ 2k/4k resolutions ------------------ */   
