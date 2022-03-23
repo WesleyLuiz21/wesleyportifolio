@@ -497,15 +497,13 @@ footer {
     margin: 0px;
 }
 .ftmore > ul {
-    gap: 10px;
+    gap: 5px;
 }
 .bxl-instagram-alt,.bxl-behance,.bxl-github {
     color: white;
-    background-color: #11141a;
     padding: 6px;
-    font-size: 1.8rem;
+    font-size: 3rem;
     border-radius: 50%;
-    transition: 400ms;
 }
 .bxl-instagram-alt:hover,.bxl-behance:hover,.bxl-github:hover{
     background-color: #182130;
