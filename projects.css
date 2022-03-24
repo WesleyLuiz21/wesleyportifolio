@@ -69,7 +69,23 @@ h1,h2,h3,p,a {
     font-family: 'roboto';
     color: red;
     transition: 500ms;
+    
 }
+.btnblue {
+    background-color: #1a202c;
+    color: white;
+    border: 2px solid #1a202c;
+    transition: 500ms;
+    padding: 10px;
+}
+.btnwhite {
+    background-color: white;
+    color: #1a202c;
+    border: 2px solid white;
+    transition: 500ms;
+    padding: 10px;
+}
+
 .boxs {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.753);
 }
@@ -172,10 +188,13 @@ main {
     padding: 50px 0px;
 }
 .probox {
-    background-color: #4c67bf;
+    background-color: #3e54a3;
 }
 .protextbox {
     padding: 30px;
+}
+.protextbox div {
+    gap: 20px;
 }
 .protextbox ul li {
     list-style: disc;
@@ -272,15 +291,41 @@ footer {
 }
 
 @media (min-width: 980px) {  /* ------------------hover effects  all buttons------------------  no mobile version */  
+    .button-intro:hover {
+        background: white;
+        color: rgb(255, 0, 34);
+        border: 2px solid white;
+    }
+    #btnintro2:hover {
+        padding-left: 20px;
+        border: 2px solid rgb(255, 0, 34);
+    }
+    .btnwhite:hover {
+        background-color: #1a202c;
+        color: white;
+        border: 2px solid #1a202c;
+    }
     .linkred:hover {
         color: white;
         transition: 500ms;
     }
+    .btnblue:hover {
+        color: #1a202c;
+        background-color: white;
+        border:2px solid white;
+    }
     i {
         transition: 250ms;
     }
-    .linkred:hover i {
+    .linkred:hover i,
+    .button-intro:hover i,
+     #btnintro2:hover i,
+     .btnblue:hover i,
+     .btnwhite:hover i {
         transform: scale(1.3) translateX(2px);
+    }
+    .btnintrod:hover i {
+        transform: scale(1.3) translateY(2px)
     }
     .iconskill > .bx:hover {
         color: #182130;
