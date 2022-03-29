@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\test insta"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wesleyportifolio",
+		"liveServer.settings.port": 5501
+	}
+}
